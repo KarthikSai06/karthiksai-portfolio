@@ -1,0 +1,5 @@
+sourcemap.json
+*.py
+*.log
+.git
+__pycache__

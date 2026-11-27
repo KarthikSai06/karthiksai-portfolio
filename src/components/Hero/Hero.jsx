@@ -2,7 +2,7 @@ import { useCopy } from '../Animation/CopyContext';
 
 import { NavLink } from 'react-router-dom';
 
-import './style.scss';
+
 
 
 
@@ -200,7 +200,7 @@ const Hero = () => {
 
               <img
 
-                src='./img/olha3.jpg'
+                src='/img/karthik.jpg'
 
                 alt=''
 
@@ -216,25 +216,16 @@ const Hero = () => {
 
             <span>in</span>
 
-            <span>india</span>
+            <span>Bengaluru, India</span>
 
           </div>
 
-          <div className='hero-description'>
-
-            <p>
-
-              Final-year Computer Science undergrad (CGPA 9.1/10) at DSCE Bengaluru building LLM-driven agents and scalable full-stack pipelines.
-
-              experiences for brands OF ALL SIZES
-
-            </p>
-
-          </div>
+          <div className='hero-signature-wrap'><img className='hero-signature-img' src='/img/signature.png' alt='Karthik Sai’s signature'/></div>
+          <div className='hero-description'><p>I’m Kammala Karthik Sai, a software developer building intelligent automation, Android tools and real-time data applications.</p></div>
 
           <NavLink
 
-            to='/max-milkin'
+            to='/projects/ai-mobile-agent'
 
             className='hero-recent'>
 

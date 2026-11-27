@@ -1,14 +1,15 @@
 {
-  "name": "olhalazarieva-extracted-source",
+  "name": "karthik-sai-portfolio",
   "version": "1.0.0",
   "private": true,
-  "description": "Extracted production source code and 3D models from olhalazarieva.com",
+  "description": "Software engineering portfolio of Kammala Karthik Sai",
   "dependencies": {
     "@react-three/drei": "^9.100.0",
     "@react-three/fiber": "^8.16.0",
     "@studio-freight/react-lenis": "^0.0.47",
     "framer-motion": "^11.0.0",
     "gsap": "^3.12.5",
+    "matter-js": "^0.20.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-router-dom": "^6.22.0",
@@ -18,5 +19,9 @@
     "@vitejs/plugin-react": "^4.2.0",
     "sass": "^1.71.0",
     "vite": "^5.1.0"
+  },
+  "scripts": {
+    "build": "vite build && node assemble.mjs",
+    "dev": "vite --host 127.0.0.1"
   }
 }

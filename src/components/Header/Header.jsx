@@ -6,7 +6,7 @@ import Time from '../../Time';
 
 import AnimatedLink from '../Animation/AnimatedLink';
 
-import './style.scss';
+
 
 import { NavLink, useLocation, useNavigate } from 'react-router-dom';
 
@@ -369,39 +369,9 @@ const Header = () => {
               {window.innerWidth < 768 ? <Time /> : null}
 
               <div className='header__menu-behance'>
-
-                <a
-
-                  href='#'
-
-                  className='link'>
-
-                  dribble
-
-                </a>
-
-                <a
-
-                  href='#'
-
-                  className='link'>
-
-                  behance
-
-                </a>
-
-                <a
-
-                  href='https://linkedin.com/in/k-karthik-sai'
-
-                  className='link'>
-
-                  linkedin
-
-                </a>
-
+                <a href='https://github.com/KarthikSai06'>GitHub</a>
+                <a href='https://www.linkedin.com/in/k-karthik-sai-268423343/'>LinkedIn</a>
               </div>
-
               <a
 
                 href='tel:+916304825033'
@@ -422,75 +392,8 @@ const Header = () => {
 
               </a>
 
-              <div className='header__menu-socials'>
-
-                <a
-
-                  href='https://github.com/KarthikSai06'
-
-                  target='_blank'
-
-                  rel='noopener noreferrer'>
-
-                  instagram
-
-                </a>
-
-                <a
-
-                  href='https://t.me/ola_la0304'
-
-                  target='_blank'
-
-                  rel='noopener noreferrer'>
-
-                  telegram
-
-                </a>
-
-                <a
-
-                  href='https://www.facebook.com/olha.lazarieva'
-
-                  target='_blank'
-
-                  rel='noopener noreferrer'>
-
-                  facebook
-
-                </a>
-
-              </div>
-
-              <div className='header__menu-reserved'>
-
-                <p>
-
-                  © All right reserved.
-
-                  <br />
-
-                  2026 Karthik Sai
-
-                </p>
-
-                <a
-
-                  href='https://maxmilkin.com'
-
-                  target='_blank'
-
-                  rel='noopener noreferrer'>
-
-                  dev - MM
-
-                </a>
-
-              </div>
-
-            </div>
-
-          </nav>
+              <div className='header__menu-reserved'>Kammala Karthik Sai</div></div>
+</nav>
 
 
 

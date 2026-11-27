@@ -9,6 +9,14 @@ import AnimatedRoutes from './AnimatedRoutes';
 import Footer from './components/Footer/Footer';
 import RouteScrollTop from './RouteScrollTop';
 
+export const supportsScene = (() => {
+  try {
+    const gl = document.createElement('canvas').getContext('webgl2');
+    if (!gl) return false;
+    gl.getExtension('WEBGL_lose_context')?.loseContext();
+    return true;
+  } catch { return false; }
+})();
 function App() {
   const [heroVisible, setHeroVisible] = useState(false);
   const [hasLoaded, setHasLoaded] = useState(false);
@@ -21,9 +29,12 @@ function App() {
   };
 
   useEffect(() => {
-    document.body.classList.remove('loaded');
-    setHeroVisible(false);
-    setHasLoaded(false);
+    if (!supportsScene || window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+      handleLoaderExit();
+      return;
+    }
+    const timeout = setTimeout(handleLoaderExit, 10000);
+    return () => clearTimeout(timeout);
   }, []);
 
   return (
@@ -32,7 +43,7 @@ function App() {
         <div
           className='scroll-container'
           ref={scrollerRef}>
-          {!hasLoaded && <Loader onExit={handleLoaderExit} />}
+          {supportsScene && !hasLoaded && <Loader onExit={handleLoaderExit} />}
 
           <CopyProvider>
             <BrowserRouter>

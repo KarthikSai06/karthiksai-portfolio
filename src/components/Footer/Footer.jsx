@@ -14,7 +14,7 @@ import { ScrollToPlugin } from 'gsap/ScrollToPlugin';
 
 import { useLocation, useNavigate } from 'react-router-dom';
 
-import './style.scss';
+
 
 
 
@@ -224,132 +224,6 @@ const Footer = () => {
 
 
 
-          <div className='footer__social'>
-
-            <a
-
-              href='https://github.com/KarthikSai06'
-
-              target='_blank'
-
-              className='link-line'>
-
-              github
-
-              <svg
-
-                xmlns='http://www.w3.org/2000/svg'
-
-                width='21'
-
-                height='21'
-
-                viewBox='0 0 21 21'
-
-                fill='none'>
-
-                <path
-
-                  d='M1.81213 19.1203L19.4395 1.43779M5.76584 1.24781L19.6484 1.2279L19.6922 15.1104'
-
-                  stroke='#101010'
-
-                  strokeWidth='2'
-
-                  strokeLinecap='round'
-
-                  strokeLinejoin='round'
-
-                />
-
-              </svg>
-
-            </a>
-
-            <a
-
-              href='https://t.me/ola_la0304'
-
-              target='_blank'
-
-              className='link-line'>
-
-              telegram
-
-              <svg
-
-                xmlns='http://www.w3.org/2000/svg'
-
-                width='21'
-
-                height='21'
-
-                viewBox='0 0 21 21'
-
-                fill='none'>
-
-                <path
-
-                  d='M1.81213 19.1203L19.4395 1.43779M5.76584 1.24781L19.6484 1.2279L19.6922 15.1104'
-
-                  stroke='#101010'
-
-                  strokeWidth='2'
-
-                  strokeLinecap='round'
-
-                  strokeLinejoin='round'
-
-                />
-
-              </svg>
-
-            </a>
-
-            <a
-
-              href='https://www.facebook.com/olha.lazarieva'
-
-              target='_blank'
-
-              className='link-line'>
-
-              facebook
-
-              <svg
-
-                xmlns='http://www.w3.org/2000/svg'
-
-                width='21'
-
-                height='21'
-
-                viewBox='0 0 21 21'
-
-                fill='none'>
-
-                <path
-
-                  d='M1.81213 19.1203L19.4395 1.43779M5.76584 1.24781L19.6484 1.2279L19.6922 15.1104'
-
-                  stroke='#101010'
-
-                  strokeWidth='2'
-
-                  strokeLinecap='round'
-
-                  strokeLinejoin='round'
-
-                />
-
-              </svg>
-
-            </a>
-
-          </div>
-
-
-
           <div className='footer-pages-location'>
 
             <div className='footer-pages'>
@@ -366,7 +240,7 @@ const Footer = () => {
 
               <AnimatedLink
 
-                text='services'
+                text='skills'
 
                 onClick={(e) => handleAnchor(e, 'services')}
 
@@ -376,7 +250,7 @@ const Footer = () => {
 
               <AnimatedLink
 
-                text='works'
+                text='projects'
 
                 onClick={(e) => handleAnchor(e, 'works')}
 
@@ -390,7 +264,7 @@ const Footer = () => {
 
             <div className='footer-location'>
 
-              <p>Address:</p>
+              <p>College</p>
 
               <p>
 
@@ -410,15 +284,7 @@ const Footer = () => {
 
           <div className='footer-behance'>
 
-            <AnimatedLink
-
-              text='leetcode'
-
-              to='https://leetcode.com'
-
-              target='_blank'
-
-            />
+            
 
             <AnimatedLink
 
@@ -434,7 +300,7 @@ const Footer = () => {
 
               text='linkedin'
 
-              to='https://linkedin.com/in/k-karthik-sai'
+              to='https://www.linkedin.com/in/k-karthik-sai-268423343/'
 
               target='_blank'
 
@@ -464,25 +330,11 @@ const Footer = () => {
 
             </div>
 
-            <a
-
-              href='http://maxmilkin.com'
-
-              className='footer-reserved__dev'
-
-              target='_blank'
-
-              rel='noreferrer'>
-
-              development - <span>M</span>
-
-              <span>M</span>
-
-            </a>
+            
 
             <div className='footer-reserved__reserved'>
 
-              2026 All right reserved. Kammala Karthik Sai
+              © Kammala Karthik Sai
 
               <br />
 

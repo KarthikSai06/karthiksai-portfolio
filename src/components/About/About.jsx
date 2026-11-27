@@ -6,7 +6,7 @@ import gsap from 'gsap';
 
 import ScrollTrigger from 'gsap/ScrollTrigger';
 
-import './style.scss';
+
 
 import { useEffect, useRef } from 'react';
 
@@ -406,7 +406,7 @@ const About = () => {
 
                     <img
 
-                      src='./img/olha3.jpg'
+                      src='/img/karthik.jpg'
 
                       alt=''
 
@@ -438,7 +438,7 @@ const About = () => {
 
                   <h3>
 
-                    my experience
+                    education
 
                     <svg
 
@@ -498,15 +498,7 @@ const About = () => {
 
                     ) : (
 
-                      <p className='about-mobile-text'>
-
-                        Computer Science undergraduate (CGPA 9.11/10) years of experience
-
-                        in creating digital products for international
-
-                        companies.
-
-                      </p>
+                      <p className='about-mobile-text'>I study Computer Science &amp; Engineering at Dayananda Sagar College of Engineering, Bengaluru. My CGPA is 9.11/10.</p>
 
                     )}
 
@@ -520,17 +512,7 @@ const About = () => {
 
               <div className='about-second-title'>
 
-                <h2>
-
-                  It’s not just a<br />
-
-                  profession &thinsp; - &thinsp; it’s a way
-
-                  <br />
-
-                  of thinking.
-
-                </h2>
+                <h2>How I build software</h2>
 
               </div>
 
@@ -540,33 +522,13 @@ const About = () => {
 
                   <RevealLines
 
-                    lines={[
-
-                      'My work is part of my lifestyle. As',
-
-                      'a UX/UI designer, I am constantly',
-
-                      'observing the world: I notice how',
-
-                      'people interact with space,',
-
-                      'technology, objects.',
-
-                    ]}
+                    lines={["I build tools for Android,", "from a voice or text command", "to a gesture that controls a phone."]}
 
                   />
 
                 ) : (
 
-                  <p className='anim-sec'>
-
-                    My work is part of my lifestyle. As a UX/UI designer, I am
-
-                    constantly observing the world: I notice how people interact
-
-                    with space, technology, objects.
-
-                  </p>
+                  <p className='anim-sec'>I build tools for Android, from a voice or text command to a gesture that controls a phone.</p>
 
                 )}
 
@@ -576,7 +538,7 @@ const About = () => {
 
                 <h3>
 
-                  my philosophy
+                  engineering
 
                   <svg
 
@@ -614,43 +576,13 @@ const About = () => {
 
                     <RevealLines
 
-                      lines={[
-
-                        'I value clarity, meaning, and',
-
-                        'functionality — both in design and in',
-
-                        'life. I am close to the idea of',
-
-                        '​​conscious minimalism: leaving only what',
-
-                        'makes sense and works for results.',
-
-                        'I love simple interfaces with deep',
-
-                        'meaning — as well as simple things that',
-
-                        'bring true pleasure.',
-
-                      ]}
+                      lines={["My mobile agent reads the screen,", "plans an action and checks the result.", "It can save a UI element for a later task."]}
 
                     />
 
                   ) : (
 
-                    <p className='anim-sec'>
-
-                      I value clarity, meaning, and functionality — both in
-
-                      design and in life. I am close to the idea of ​​conscious
-
-                      minimalism: leaving only what makes sense and works for
-
-                      results. I love simple interfaces with deep meaning — as
-
-                      well as simple things that bring true pleasure.
-
-                    </p>
+                    <p className='anim-sec'>My mobile agent reads the screen, plans an action and checks the result. It can save a UI element for a later task.</p>
 
                   )}
 
@@ -670,7 +602,7 @@ const About = () => {
 
                         <img
 
-                          src='./img/olha.jpg'
+                          src='/img/karthik.jpg'
 
                           alt=''
 
@@ -682,7 +614,7 @@ const About = () => {
 
                         <img
 
-                          src='./img/olha2.jpg'
+                          src='/img/karthik.jpg'
 
                           alt=''
 
@@ -698,7 +630,7 @@ const About = () => {
 
                     <h3>
 
-                      my lifestyle
+                      core computer science
 
                       <svg
 
@@ -736,41 +668,13 @@ const About = () => {
 
                         <RevealLines
 
-                          lines={[
-
-                            'I look for aesthetics everywhere:',
-
-                            'in the forms of nature, in the',
-
-                            'details of architecture, in the',
-
-                            'colors of city streets, and even',
-
-                            'in the simple things of everyday.',
-
-                            'life. It`s not just a hobby - ',
-
-                            "it's a way of seeing the world.",
-
-                          ]}
+                          lines={["I have solved 250+ LeetCode problems", "and ranked in the top 5% in NPTEL’s", "Computer Networks and Internet Protocol course."]}
 
                         />
 
                       ) : (
 
-                        <p className='anim-sec'>
-
-                          I look for aesthetics everywhere: in the forms of
-
-                          nature, in the details of architecture, in the colors
-
-                          of city streets, and even in the simple things of
-
-                          everyday life. It's not just a hobby - it's a way of
-
-                          seeing the world.
-
-                        </p>
+                        <p className='anim-sec'>I have solved 250+ LeetCode problems and ranked in the top 5% in NPTEL’s Computer Networks and Internet Protocol course.</p>
 
                       )}
 
@@ -794,7 +698,7 @@ const About = () => {
 
                     className='link-line about-link'>
 
-                    lets contact
+                    get in touch
 
                     <svg
 
@@ -830,23 +734,7 @@ const About = () => {
 
                     <RevealLines
 
-                      lines={[
-
-                        'Every project profile is more than',
-
-                        "a task. It's a story that I help",
-
-                        'tell through design.',
-
-                        'I believe that a good interface',
-
-                        'is not just about colors and',
-
-                        'fonts, but about the feelings it',
-
-                        'evokes.',
-
-                      ]}
+                      lines={["I’m looking for a developer role", "where I can work on APIs, Android tools", "and language-model applications."]}
 
                     />
 
